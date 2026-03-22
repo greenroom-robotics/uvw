@@ -218,7 +218,7 @@ endif()
 
 install(
     EXPORT uvwConfig 
-    NAMESPACE uvw:: 
+    NAMESPACE uvw::
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/uvw
 )
 
